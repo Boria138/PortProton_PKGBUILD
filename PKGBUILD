@@ -2,7 +2,7 @@
 
 pkgname=portproton
 _xdg_name=ru.linux_gaming.PortProton
-pkgver=1.7.1
+pkgver=1.7.2
 pkgrel=1
 pkgdesc="Software for playing Microsoft Windows games and launchers"
 arch=('x86_64')
@@ -21,7 +21,7 @@ optdepends=('gamemode: Support for Feral GameMode'
             'gamescope: Support for Gamescope')
 
 source=("$pkgname.tar.gz::https://github.com/Castro-Fidel/PortProton_ALT/archive/v$pkgver.tar.gz")
-sha256sums=('af6787640cc2bca5a6a3cf34372ea8d7cee9521d1e732c5047236554b816b9af')
+sha256sums=('6fb417aa84dafe0aa6c852f32f89d043eddafff2e0788212365610a499ad3d20')
 
 package() {
   cd PortProton_ALT-$pkgver
